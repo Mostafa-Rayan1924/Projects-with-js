@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACC</title>
+    <!-- <link rel="stylesheet" href="../style.css"> -->
+</head>
+<style>
+    body{
+        background-color: #eee;
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+       font-family: system-ui, -apple-system;
+        overflow-x: hidden;
+    }
+    .container{
+        width: 80%;
+        margin: auto;
+    }
+    h2{
+        color: #3f51b5;
+        font-size: 30px;
+        text-align: center;
+    }
+    .baba{
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 70%;
+    }
+    .baba .box{
+        padding: 10px;
+        background-color: white;
+        box-shadow: 0 0 10px #ddd;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    }
+    .baba .box .head{
+        display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.baba button{
+    background-color: #3f51b5;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+.baba .body{
+    line-height: 1.6;
+    color: #777;
+    margin-bottom: 10px;
+    display: none;
+}
+.neg{
+    display: none;
+}
+.body.show{
+    display: block;
+}
+.neg.block{
+    display: block;
+}
+.minius.none{
+    display: none;
+}
+</style>
+<body>
+    <div class="baba">
+    <h2>general questions</h2>
+    <div class="container">
+        <div class="box">
+         <div class="head">
+            <h4>do you know me?</h4>
+            <button class="minius">
+               +
+            </button>
+            <button  class="neg">-</button>
+         </div>
+         <div class="body">
+          Lorem ipsum dolor sit  nostrum similique earum praesentium inventore laboriosam optio nulla illum aut? Sunt delectus quia reiciendis iste.
+         </div>
+        </div>
+        <div class="box">
+            <div class="head">
+               <h4>do you know the meaning of isc?</h4>
+               <button class="minius">
+                  +
+               </button>
+               <button  class="neg">-</button>
+            </div>
+            <div class="body">
+             sasa ipsum dolor sit  nostrum similique earum praesentium inventore laboriosam optio nulla illum aut? Sunt delectus quia reiciendis iste.
+            </div>
+           </div>
+           <div class="box">
+            <div class="head">
+               <h4>bla bla bla bla bla bla</h4>
+               <button class="minius">
+                  +
+               </button>
+               <button  class="neg">-</button>
+            </div>
+            <div class="body">
+             rayan ipsum dolor sit  nostrum similique earum praesentium inventore laboriosam optio nulla illum aut? Sunt delectus quia reiciendis iste.
+            </div>
+           </div>
+    </div>
+</div>
+
+    <script src="acc.js"></script>
+</body>
+</html>
